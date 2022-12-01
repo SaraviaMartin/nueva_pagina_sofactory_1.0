@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Right-sided navbar links*/
+
+
+
+
+
+
+/*LOGO*/
+.logoP1 {
+  height: 50px;
+   width: 200px;
+   margin-left: 25px;
+   margin-top: 10px;
+}
+
+
+
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+/*ARREGLO EN EL EQUIPO (FOTOS)*/
+#contenedorTeam {
+  margin-left: 10%;
+}
