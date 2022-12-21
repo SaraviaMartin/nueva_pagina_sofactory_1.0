@@ -2,40 +2,40 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
-
-/*Right-sided navbar links*/
-.w3-display-bottommiddle i:hover {
-  color: blue;
-}
-
-
-
 
 
 /*LOGO*/
 .logoP1 {
   height: 50px;
-   width: 200px;
-   margin-left: 25px;
-   margin-top: 10px;
+  width: 200px;
+  margin-left: 25px;
+  margin-top: 10px;
 }
 
-
-
-
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-
-body, html {
-  height: 100%;
-  line-height: 1.8;
-}
-
-/* Full height image header */
+/* HERO IMAGE full*/
 .bgimg-1 {
   background-position: center;
   background-size: cover;
   min-height: 100%;
+}
+.bgimg-1 span:hover{
+  color: blue;
+  transition: 1s;
+}
+
+
+
+/*Right-sided navbar links*/
+.w3-display-bottommiddle i:hover {
+  color: blue;
+  transition: 1s;
+}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
 }
 
 
