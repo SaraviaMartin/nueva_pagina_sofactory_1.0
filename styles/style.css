@@ -14,23 +14,13 @@
   margin-top: 10px;
 }
 
-/* HERO IMAGE full*/
-.bgimg-1 {
-  background-position: center;
-  background-size: cover;
-  min-height: 100%;
-}
-.bgimg-1 span:hover{
-  color: blue;
-  transition: 1s;
-}
-
 
 
 /*Right-sided navbar links*/
 .w3-display-bottommiddle i:hover {
+  transform: scale(1.1);
   color: blue;
-  transition: 1s;
+  
 }
 
 body, html {
@@ -38,10 +28,24 @@ body, html {
   line-height: 1.8;
 }
 
+/* HERO IMAGE full*/
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+}
+/*.bgimg-1 span:hover{
+  
+}*/
 
 
 .w3-bar .w3-button {
   padding: 16px;
+}
+
+.w3-quarter:hover{
+  transform: scale(1.1);
+  
 }
 
 /*ARREGLO EN EL EQUIPO (FOTOS)*/
