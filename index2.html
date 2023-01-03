@@ -1,454 +1,441 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+<html lang="es"></html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, maximum-scale=1">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EZV4910P3V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EZV4910P3V');
+</script>
+<!-- Primary Meta Tags -->
 <title>Sofactory - Servicios digitales para tu negocio</title>
-<link rel="icon" href="favicon.png" type="image/png">
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-<link href="css/style.css" rel="stylesheet" type="text/css"> 
-<link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
-<link href="css/animate.css" rel="stylesheet" type="text/css">
- 
-<!--[if lt IE 9]>
-    <script src="js/respond-1.1.0.min.js"></script>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/html5element.js"></script>
-<![endif]-->
- 
+<meta name="title" content="Sofactory - Servicios digitales para tu negocio">
+<meta name="description" content="Pagina web dedicada a proveer servicios digitales y herramientas para el desarrollo de tu negocio.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://metatags.io/">
+<meta property="og:title" content="Sofactory - Servicios digitales para tu negocio">
+<meta property="og:description" content="Pagina web dedicada a proveer servicios digitales y herramientas para el desarrollo de tu negocio.">
+<meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://metatags.io/">
+<meta property="twitter:title" content="Sofactory - Servicios digitales para tu negocio">
+<meta property="twitter:description" content="Pagina web dedicada a proveer servicios digitales y herramientas para el desarrollo de tu negocio.">
+<meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+<meta charset="UTF-8">
+<meta name="description" content="Pagina dedicada a brindar servicios digitales">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./styles/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+
+<!--<script>
+$(document).ready(function(){
+  $("#p1").hover(function(){
+    alert("You entered p1!");
+  },
+  function(){
+    alert("Bye! You now leave p1!");
+  }); 
+});
+
+</script>
+
+<script>
+
+$(document).ready(function(){
+  $("input").focus(function(){
+    $(this).css("background-color", "yellow");
+  });
+  $("input").blur(function(){
+    $(this).css("background-color", "green");
+  });
+});
+
+</script>-->
+
+<!--<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("b").hide();
+  });
+  $("#show").click(function(){
+    $("b").show();
+  });
+});
+</script>-->
+
+
+
+
+
 </head>
 <body>
 
-<!--Header_section-->
-<header id="header_wrapper">
-  <div class="container">
-    <div class="header_box">
-      <div class="logo"><a href="#"><img src="img/logo png.png" alt="logo"></a></div>
-	  <nav class="navbar navbar-inverse" role="navigation">
-      <div class="navbar-header">
-        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        </div>
-	    <div id="main-nav" class="collapse navbar-collapse navStyle">
-			<ul class="nav navbar-nav" id="mainNav">
-			  <li class="active"><a href="#hero_section" class="scroll-link">Inicio</a></li>
-			  <li><a href="#service" class="scroll-link">Servicios</a></li>
-			  <li><a href="#aboutUs" class="scroll-link">Acerca de nosotros</a></li>
-			  <li><a href="#Portfolio" class="scroll-link">Portafolio</a></li>
-			  <li><a href="#clients" class="scroll-link">Clientes</a></li>
-			  <!--<li><a href="#team" class="scroll-link">Team</a></li>-->
-			  <li><a href="#contact" class="scroll-link">Contacto</a></li>
-			</ul>
-      </div>
-	 </nav>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <img src="./img/logo png.png" class="logoP1" alt="logo">
+    <!--<a href="#home" class="w3-bar-item w3-button w3-wide" id="p1">LOGO</a>-->
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ACERCA DE NOSOTROS</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> EQUIPO</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> TRABAJO</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRECIO</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACTO</a>
     </div>
-  </div>
-</header>
-<!--Header_section--> 
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
-<!--Hero_Section-->
-<section id="hero_section" class="top_cont_outer">
-  <div class="hero_wrapper">
-    <div class="container">
-      <div class="hero_section">
-        <div class="row">
-          <div class="col-md-12">
-		   
-            <div class="top_left_cont zoomIn wow animated"> 
-              <h2>EVOLUCIONA hacia <br> <strong>el mundo digital</strong></h2>
-
-                <div class="underline"></div>
-              <p>Te acompañamos en todo el camino para que puedas evolucionar junto con tu negocio al maravilloso mundo digital, <br/> y asi seguir creciendo juntos.</p>
-              <a href="#service" class="read_more2">CONTACTANOS</a> </div>
-          </div> 
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--Hero_Section--> 
-
-<!--Service-->
-<section  id="service">
-  <div class="container">
-    <h2>Servicios</h2>
-    <div class="service_wrapper">
-      <div class="row">
-        <div class="col-lg-4">
-		<div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-bar-chart"></i></span> </div>
-          <div class="service_block">
-            
-            <h3 class="animated fadeInUp wow">Campañas</h3>
-            <p class="animated fadeInDown wow">Podras llevar tu negocio a la web. Aprenderas a usar las herramientas que ayudan a grandes empresas a mejorar su rendimiento. </p>
-          </div>
-        </div>
-        <div class="col-lg-4"> 
-		<div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-desktop"></i></span> </div> 
-		<div class="service_block">
-            <h3 class="animated fadeInUp wow">Diseño Web</h3>
-            <p class="animated fadeInDown wow">Diseñamos tu sitio web, un blog, una landing page o un e-commerce.  </p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-		<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-pencil"></i></span> </div>
-          <div class="service_block">
-            
-            <h3 class="animated fadeInUp wow">Diseño de marca</h3>
-            <p class="animated fadeInDown wow">Un equipo de diseño profesional, que se encargara de hacer brillar tu marca.  </p>
-          </div>
-        </div>
-      </div> 
-    </div>
-  </div>
-</section>
-<!--Service-->
-
-<section id="aboutUs"><!--Aboutus-->
-<div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
-  <div class="container">
-    <h2>About Us</h2>
-	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
-    <div class="inner_section">
- 
-	  <div class="row">
-						<div class="col-lg-12 about-us">
-							<div class="row">
-							<div class="col-md-6">
-								<h3>Our Business</h3>
-									<p>
-										 Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum grectetur.sem quisci ipsum gravida tortor orci ipsum grectetur. <br/> <br/>								
-										Lorem ipsum dolor sit ametbi sagittis, orci ipsum gravida tortor. Lorem ipssum gravida tortor. Lorem ipssum gravida tortor. Lorem ipssum gravida tortor. Lorem ipssum gravida tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									</p>
-									<p>
-										 Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, consectetur. <br/> <br/>								
-										Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									</p>
-
-								
-								</div><!-- /.col-md-6 -->
-								<div class="col-md-6">
-									<h3>We Design Awesome Web Apps</h3>
-									<p>
-										 Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum gravida tortor. Lorem ipsum dolor sit amet, consectetur.
-									</p>
-
-									<ul class="about-us-list">
-										<li class="points">Consectetur Morbi sagittis, sem quisci ipsum gravida tortor</li>
-										<li class="points">Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida </li>
-										<li class="points">Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci gravida </li>
-                                        <li class="points">Sagittis, sem quis lacinia faucibus, orci ipsum gravida </li>
-										<li class="points">Ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci</li>
-									</ul><!-- /.about-us-list -->
-									<div class="about-us-link">
-										<a href="#"  class="read_more">Read More</a> 
-									</div><!-- /.about-us-link -->
-									
-								</div><!-- /.col-md-6 -->
-								
-							</div><!-- /.row -->	
-						</div><!-- /.col-lg-12 -->
-					</div>
-      
-    </div>
-  </div> 
-  </div>
-</section>
-<!--Aboutus--> 
-
-
-
-
-
-<!-- Portfolio -->
-<section id="Portfolio" class="content"> 
-  
-  <!-- Container -->
-  <div class="container portfolio_title"> 
-    
-    <!-- Title -->
-    <div class="section-title">
-      <h2>Portfolio</h2>
-    </div>
-    <!--/Title --> 
-    
-  </div>
-  <!-- Container -->
-  
-  <div class="portfolio-top"></div>
-  
-  <!-- Portfolio Filters -->
-  <div class="portfolio"> 
-    
-    <div id="filters" class="sixteen columns">
-      <ul class="clearfix">
-        <li><a id="all" href="#" data-filter="*" class="active">
-          <h5>All</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".prototype">
-          <h5>Prototype</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".design">
-          <h5>Design</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".android">
-          <h5>Android</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".appleIOS">
-          <h5>Apple IOS</h5>
-          </a></li>
-        <li><a class="" href="#" data-filter=".web">
-          <h5>Web App</h5>
-          </a></li>
-      </ul>
-    </div>
-    <!--/Portfolio Filters --> 
-    
-    <!-- Portfolio Wrapper -->
-    <div class="isotope fadeInLeft animated wow" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper"> 
-      
-      <!-- Portfolio Item -->
-      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   appleIOS isotope-item">
-        <div class="portfolio_img"> <img src="img/portfolio_pic1.jpg"  alt="Portfolio 1"> </div>        
-        <div class="item_overlay">
-          <a href="img/portfolio_pic1.jpg" class="item_info fancybox"> 
-            <h4 class="project_name">SMS Mobile App</h4> 
-          </a>
-        </div>
-        </div>
-      <!--/Portfolio Item --> 
-      
-      <!-- Portfolio Item-->
-      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
-        <div class="portfolio_img"> <img src="img/portfolio_pic2.jpg" alt="Portfolio 1"> </div>
-        <div class="item_overlay">           
-          <a href="img/portfolio_pic2.jpg" class="item_info fancybox">
-            <h4 class="project_name">Finance App</h4>             
-          </a>
-        </div>
-      </div>
-      <!--/Portfolio Item --> 
-      
-      <!-- Portfolio Item -->
-      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design  isotope-item">
-        <div class="portfolio_img"> <img src="img/portfolio_pic3.jpg" alt="Portfolio 1"> </div>
-        <div class="item_overlay">
-          <a href="img/portfolio_pic3.jpg" class="item_info fancybox">
-            <h4 class="project_name">GPS Concept</h4> 
-          </a>
-        </div>
-      </div>
-      <!--/Portfolio Item--> 
-      
-      <!-- Portfolio Item-->
-      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  android  prototype web isotope-item">
-        <div class="portfolio_img"> <img src="img/portfolio_pic4.jpg" alt="Portfolio 1"> </div>
-        <div class="item_overlay">
-          <a href="img/portfolio_pic4.jpg" class="item_info fancybox">
-            <h4 class="project_name">Shopping</h4> 
-          </a>
-        </div>
-      </div>
-      <!-- Portfolio Item --> 
-      
-      <!-- Portfolio Item -->
-      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
-        <div class="portfolio_img"> <img src="img/portfolio_pic5.jpg" alt="Portfolio 1"> </div>
-        <div class="item_overlay">
-          <a href="img/portfolio_pic5.jpg" class="item_info fancybox">
-            <h4 class="project_name">Managment</h4>  
-          </a>
-        </div>
-      </div>
-      <!--/Portfolio Item --> 
-      
-      <!-- Portfolio Item -->
-      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item">
-        <div class="portfolio_img"> <img src="img/portfolio_pic6.jpg" alt="Portfolio 1"> </div>
-        <div class="item_overlay">
-          <a href="img/portfolio_pic6.jpg" class="item_info fancybox"> 
-            <h4 class="project_name">iPhone            
-            </h4>  
-          </a>
-        </div>
-      </div>
-      <!--/Portfolio Item --> 
-      
-      <!-- Portfolio Item  -->
-      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design web isotope-item">
-        <div class="portfolio_img"> <img src="img/portfolio_pic7.jpg" alt="Portfolio 1"> </div>       
-        <div class="item_overlay">
-          <a href="img/portfolio_pic7.jpg" class="item_info fancybox">
-            <h4 class="project_name">Nexus Phone</h4> 
-          </a>
-        </div>
-       </div>
-      <!--/Portfolio Item --> 
-      
-      <!-- Portfolio Item -->
-      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   android isotope-item">
-        <div class="portfolio_img"> <img src="img/portfolio_pic8.jpg" alt="Portfolio 1"> </div>       
-        <div class="item_overlay">
-         <a href="img/portfolio_pic8.jpg" class="item_info fancybox"> 
-				<h4 class="project_name">Android</h4> 
-          </a>
-        </div>
-        </div>
-      <!--/Portfolio Item --> 
-      
-    </div>
-    <!--/Portfolio Wrapper --> 
-    
-  </div>
-  <!--/Portfolio Filters -->
-  
-  <div class="portfolio_btm"></div>
-  
-  
-  <div id="project_container">
-    <div class="clear"></div>
-    <div id="project_data"></div>
-  </div>
- 
-  
-</section>
-<!--/Portfolio --> 
-
-<section class="page_section" id="clients"><!--page_section-->
-  <h2>Clients</h2>
-<!--page_section-->
-<div class="client_logos"><!--client_logos-->
-  <div class="container">
-    <ul class="fadeInRight animated wow">
-      <li><a href="javascript:void(0)"><img src="img/client_logo1.png" alt=""></a></li>
-      <li><a href="javascript:void(0)"><img src="img/client_logo2.png" alt=""></a></li>
-      <li><a href="javascript:void(0)"><img src="img/client_logo3.png" alt=""></a></li>
-      <li><a href="javascript:void(0)"><img src="img/client_logo5.png" alt=""></a></li>
-    </ul>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
 </div>
-</section>
-<!--client_logos-->
 
-<section class="page_section team" id="team"><!--main-section team-start-->
-  <div class="container">
-    <h2>Team</h2>
-    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing.</h6>
-    <div class="team_section clearfix">
-      <div class="team_area">
-        <div class="team_box wow fadeInDown delay-03s">
-          <div class="team_box_shadow"><a href="javascript:void(0)"></a></div>
-          <img src="img/team_pic1.jpg" alt="">
-          <ul>
-            <li><a href="javascript:void(0)" class="fa fa-twitter"></a></li>
-            <li><a href="javascript:void(0)" class="fa fa-facebook"></a></li>
-            <li><a href="javascript:void(0)" class="fa fa-pinterest"></a></li>
-            <li><a href="javascript:void(0)" class="fa fa-google-plus"></a></li>
-          </ul>
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Cerrar ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ACERCA DE NOSOTROS</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">EQUIPO</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">TRABAJO</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRECIO</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACTO</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class=" w3-display-left w3-text-black " style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Evoluciona hacia el mundo digital</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Evoluciona hacia el mundo digital</span><br>
+    <span class="w3-large">Te acompañamos en todo el camino para que puedas evolucionar junto con tu negocio al maravilloso mundo digital, y asi seguir creciendo juntos.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Aprende mas y comienza hoy.</a></p>
+  </div> 
+  <div class="w3-display-bottommiddle w3-text w3-large" style="padding:50px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity" style="font-size:40px"></i>
+    <i class="fa fa-instagram w3-hover-opacity" style="font-size:40px"></i>
+    <i class="fa fa-snapchat w3-hover-opacity" style="font-size:40px"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity" style="font-size:40px"></i>
+    <i class="fa fa-twitter w3-hover-opacity" style="font-size:40px"></i>
+    <i class="fa fa-linkedin w3-hover-opacity" style="font-size:40px"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">SOBRE LA COMPAÑIA</h3>
+  <p class="w3-center w3-large">Características clave de nuestra empresa.</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Responsive</p>
+      <p>Podras llevar tu negocio a la web. Aprenderas a usar las herramientas que ayudan a grandes empresas a mejorar su rendimiento.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Passion</p>
+      <p>Tenemos pasion por lo que hacemos. Y creemos en la gente que nos elige.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Design</p>
+      <p>Un equipo de diseño profesional, que se encargara de hacer brillar tu marca.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Support</p>
+      <p>En Sofactory creemos que todo el tiempo se aprende, y vamos a recorrer juntos un camino de aprendizaje.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Hacemos lo que nos gusta.</h3>
+      <p>Hace 3 años que recorremos este camino, hemos conocido personas grandiosas. Y queremos seguir creciendo con vos.</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> Mira nuestros trabajos</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="./img/estrella_volando.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<!--<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">El EQUIPO</h3>
+  <p class="w3-center w3-large">Los que armaron este proyecto.</p>
+  <div id="contenedorTeam" class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom w3-margin-left w3-margin-right ">
+      <div class="w3-card">
+        <img src="" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Lautaro Saravia</h3>
+          <p class="w3-opacity">CEO, Fundador</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
         </div>
-        <h3 class="wow fadeInDown delay-03s">Tom Rensed</h3>
-        <span class="wow fadeInDown delay-03s">Chief Executive Officer</span> 
       </div>
-      <div class="team_area">
-        <div class="team_box  wow fadeInDown delay-06s">
-          <div class="team_box_shadow"><a href="javascript:void(0)"></a></div>
-          <img src="img/team_pic2.jpg" alt="">
-          <ul>
-            <li><a href="javascript:void(0)" class="fa fa-twitter"></a></li>
-            <li><a href="javascript:void(0)" class="fa fa-facebook"></a></li>
-            <li><a href="javascript:void(0)" class="fa fa-pinterest"></a></li>
-            <li><a href="javascript:void(0)" class="fa fa-google-plus"></a></li>
-          </ul>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom w3-margin-left w3-margin-right">
+      <div class="w3-card">
+        <img src="" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Agustin Casarino</h3>
+          <p class="w3-opacity">CEO, Fundador</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
         </div>
-        <h3 class="wow fadeInDown delay-06s">Kathren Mory</h3>
-        <span class="wow fadeInDown delay-06s">Vice President</span> 
       </div>
-      <div class="team_area">
-        <div class="team_box wow fadeInDown delay-09s">
-          <div class="team_box_shadow"><a href="javascript:void(0)"></a></div>
-          <img src="img/team_pic3.jpg" alt="">
-          <ul>
-            <li><a href="javascript:void(0)" class="fa fa-twitter"></a></li>
-            <li><a href="javascript:void(0)" class="fa fa-facebook"></a></li>
-            <li><a href="javascript:void(0)" class="fa fa-pinterest"></a></li>
-            <li><a href="javascript:void(0)" class="fa fa-google-plus"></a></li>
-          </ul>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom w3-margin-left w3-margin-right">
+      <div class="w3-card">
+        <img src="" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Martin Saravia</h3>
+          <p class="w3-opacity">CEO, Fundador</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
         </div>
-        <h3 class="wow fadeInDown delay-09s">Lancer Jack</h3>
-        <span class="wow fadeInDown delay-09s">Senior Manager</span> 
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+    </div>
+  </div>
+</div>-->
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14+</span>
+    <br>Socios
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">55+</span>
+    <br>Projectos terminados
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">89+</span>
+    <br>Clientes felices
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">150+</span>
+    <br>Reuniones 
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">NUESTRO TRABAJO</h3>
+  <p class="w3-center w3-large">Lo que hemos hecho por la gente.</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="./img/AE1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="./img/roll.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="./img/atlantic_ridge.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="./img/red.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="./img/i.o.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="./img/dvd.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="./img/canal.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="./img/vik.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Nuestras habilidades.</h3>
+      <p>Somos una compañia que sabe cuales son sus puntos fuertes.<br>
+      tambien conocemos nuestras debilidades, y trabajamos dia a dia para mejorar.</p>
+      <p>Aca tenes una estadistica basada en la opinion de la gente que trabaja con nosotros.<br>
+      Asi te va a ser mas facil elegir que servicios te interesan.</p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-chrome w3-margin-right"></i>Subir tu nivel</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Desarrollo Web</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Diseño</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
       </div>
     </div>
   </div>
-</section>
-<!--/Team-->
-<!--Footer-->
-<footer class="footer_wrapper" id="contact">
-  <div class="container">
-    <section class="page_section contact" id="contact">
-      <div class="contact_section">
-        <h2>Contact Us</h2>
-        <div class="row">
-          <div class="col-lg-4">
-            
-          </div>
-          <div class="col-lg-4">
-           
-          </div>
-          <div class="col-lg-4">
-          
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 wow fadeInLeft">	
-		 <div class="contact_info">
-                            <div class="detail">
-                                <h4>UNIQUE Infoway</h4>
-                                <p>104, Some street, NewYork, USA</p>
-                            </div>
-                            <div class="detail">
-                                <h4>call us</h4>
-                                <p>+1 234 567890</p>
-                            </div>
-                            <div class="detail">
-                                <h4>Email us</h4>
-                                <p>support@sitename.com</p>
-                            </div> 
-                        </div>
-       		  
-			  
-          
-          <ul class="social_links">
-            <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-            <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-            <li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>
-            <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li> 
-          </ul>
-        </div>
-        <div class="col-lg-8 wow fadeInLeft delay-06s">
-          <div class="form">
-            <input class="input-text" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
-            <input class="input-text" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
-            <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
-            <input class="input-btn" type="submit" value="send message">
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-  <div class="container">
-    <div class="footer_bottom"><span>Copyright © 2014,    Template by <a href="http://webthemez.com">WebThemez.com</a>. </span> </div>
-  </div>
-</footer>
+</div>
 
-<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
-<script type="text/javascript" src="js/jquery.nav.js"></script> 
-<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="js/jquery.isotope.js"></script>
-<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
-<script type="text/javascript" src="js/wow.js"></script> 
-<script type="text/javascript" src="js/custom.js"></script>
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+  <h3>PRECIOS</h3>
+  <p class="w3-large">Elija un plan de precios que se ajuste a sus necesidades.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Basico</li>
+        <li class="w3-padding-16"><b>10GB</b> Almacenamiento</li>
+        <li class="w3-padding-16"><b>10</b> Emails</li>
+        <li class="w3-padding-16"><b>1</b> Sitio Web (3paginas)</li>
+        <li class="w3-padding-16"><b>Apoyo</b> Soporte</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 10</h2>
+          <span class="w3-opacity">por mes</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Contratar</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">Pro</li>
+        <li class="w3-padding-16"><b>25GB</b> Almacenamiento</li>
+        <li class="w3-padding-16"><b>25</b> Emails</li>
+        <li class="w3-padding-16"><b>2</b> Sitio web (5paginas)</li>
+        <li class="w3-padding-16"><b>Apoyo</b> Soporte</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 25</h2>
+          <span class="w3-opacity">por mes</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button id ="hide" class="w3-button w3-black w3-padding-large">Contratar</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+        <li class="w3-padding-16"><b>50GB</b> Almacenamiento</li>
+        <li class="w3-padding-16"><b>50</b> Emails</li>
+        <li class="w3-padding-16"><b>2</b> Sitio web (4paginas)</li>
+        <li class="w3-padding-16"><b>Apoyo</b> Soporte</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 50</h2>
+          <span class="w3-opacity">por mes</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large">Contratar</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-gray" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACTO</h3>
+  <p class="w3-center w3-large">Contactemonos. Envianos tu mensaje:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Salta, AR</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Telefono: +54 3876580057</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: sofactory@gmail.com</p>
+    <br>
+    <form action="https://getform.io/f/888efcf0-3d6f-4cd0-a42d-98a24ed924dc" method="POST" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Name" <label for="text"></label>></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email" <label for="text"></label>></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Asunto" required name="Subject" <label for="text"></label>></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Mensaje" required name="Message" <label for="text"></label>></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> ENVIAR MENSAJE
+        </button>
+      </p>
+    </form>
+    <!-- Image of location/map -->
+    <img src="./img/logojpg.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px" alt="Footer-logo">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Todos los derechos reservados</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
