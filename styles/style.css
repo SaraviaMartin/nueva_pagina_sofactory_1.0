@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+
+/*LOGO*/
+.logoP1 {
+  height: 50px;
+  width: 200px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+
+
+/*Right-sided navbar links*/
+.w3-display-bottommiddle i:hover {
+  transform: scale(1.1);
+  color: blue;
+  
+}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* HERO IMAGE full*/
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+}
+/*.bgimg-1 span:hover{
+  
+}*/
+
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.w3-quarter:hover{
+  transform: scale(1.1);
+  
+}
+
+/*ARREGLO EN EL EQUIPO (FOTOS)*/
+#contenedorTeam {
+  margin-left: 10%;
+}
